@@ -1,0 +1,232 @@
+.miniCart, .miniCartOverlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.miniCartOverlay {
+    background-color: rgba(82, 91, 94, 0.25);
+}
+
+.miniCartContent {
+    position: absolute;
+    z-index: 6;
+    right: 40px;
+    top: 0;
+    background-color: white;
+    width: 325px;
+}
+
+.myBag {
+    position: fixed;
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 315px;
+}
+
+.miniCartHidden {
+    height: 57px;
+}
+
+.myBag h4 {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.myBag p {
+    margin-top: 12px;
+}
+
+.emptyMiniCart h4, .emptyMiniCart h5 {
+    margin-left: 16px;
+}
+
+.emptyMiniCart h4 {
+    margin-top: 0;
+}
+
+.miniCartProducts {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+}
+
+.miniCartImage img {
+    width: 120px;
+}
+
+.miniCartImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.miniCartDescription {
+    width: 157px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.miniCartDescription h3 {
+    margin-top: -4px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 160%;
+    margin-bottom: 5px;
+}
+
+.miniCartDescription h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.miniCartQuantityBtn {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniCartQuantityBtn:hover {
+    background-color: #eaeaea;
+}
+
+.miniCartQuantity {
+    margin-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.miniCartAttributes {
+    max-width: 120px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.miniCartAttributes > .selected {
+    gap: 8px;
+}
+
+.miniCartAttribute {
+    background-color: black;
+    height: 25px;
+    min-width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.miniCartAttribute p {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+.miniCartScroll {
+    position: relative;
+    max-height: 400px;
+    overflow: scroll;
+}
+
+.miniCartTotalPrice {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniCartBtn {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.miniCartBtn a {
+    text-decoration: none;
+}
+
+.viewBag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    border: 1px solid black;
+}
+
+.viewBag:hover {
+    background-color: #f3f3f3;
+}
+
+.viewBag p {
+    color: black;
+}
+
+.checkOut {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    background-color: #5ECE7B;
+}
+
+.checkOut:hover {
+    transition-duration: 0.1s;
+    background-color: #51e078;
+}
+
+.checkOut p {
+    color: white;
+}
+
+.miniCartAttributes > .selected > .unChecked, .checked {
+    width: auto;
+    min-width: 25px;
+    height: 24px;
+    border: 1px solid black;
+}
+
+.miniCartAttributes > .selected > .unChecked p, .checked p {
+    padding: 0 5px 0 5px;
+    font-size: 12px;
+}
+
+.miniCartAttributes > h4 {
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.miniCartAttributes > .selectedColor > .colorSwatch, .colorChecked {
+    width: 16px;
+    height: 16px;
+}
+
+.miniCartAttributes > .selectedColor > .colorChecked:after{
+    margin-left: -3px;
+    margin-top: -3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #5ECE7B;
+}

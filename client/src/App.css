@@ -1,0 +1,115 @@
+.App {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width: 450px) {
+    .shopLogo {
+        display: none;
+    }
+
+    .navBar {
+        justify-content: space-between;
+    }
+
+    .tools {
+        width: unset;
+        margin-right: 5px;
+    }
+
+    .listingProductCartBtn {
+        display: flex;
+    }
+
+    .miniCartContent {
+        right: 32px;
+    }
+
+    .currencyOptions {
+        right: -11px;
+    }
+
+    .productDescriptionPage {
+        flex-direction: column;
+    }
+
+    .productImages {
+        flex-direction: column-reverse;
+    }
+
+    .bigImage img {
+        max-width: 336px;
+    }
+
+    .smallImages {
+        margin-top: 12px;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    .smallImages img {
+        width: 75px;
+        height: 75px;
+        margin-right: 0;
+    }
+
+    .productDescription {
+        margin-bottom: 40px;
+    }
+
+    .cartProductDescription {
+        min-height: unset;
+    }
+
+    .cartProduct {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .cartQuantityBtn {
+        width: 24px;
+        height: 24px;
+    }
+
+    .deleteCartProduct {
+        width: 24px;
+        height: 24px;
+    }
+
+    .CartAttributes {
+        margin-right: 10px;
+        gap: 5px;
+    }
+
+    .cartAttribute {
+        font-size: 8px;
+        width: 47px;
+        height: 26px;
+        min-width: unset;
+    }
+
+    .cartAttribute p {
+        padding: 3px;
+    }
+
+    .modalContent {
+        max-width: 315px;
+    }
+
+    .swatchAttributes {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .cartProduct {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-left: 1px;
+        gap: 10px;
+    }
+
+    .products {
+        margin: 0;
+    }
+}

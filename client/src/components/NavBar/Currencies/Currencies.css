@@ -1,0 +1,54 @@
+.currencies {
+    display: flex;
+    gap: 5px;
+}
+
+.dropdownMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.dropdownMenu:hover {
+    background-color: lightgrey;
+}
+
+.currencyOptions {
+    position: absolute;
+    z-index: 7;
+    display: flex;
+    flex-direction: column;
+    top: 25px;
+    right: -17px;
+    width: 95px;
+    box-shadow: 0 4px 15px rgba(168, 172, 176, 0.25);
+    background-color: white;
+    cursor: pointer;
+}
+
+.currencyOption {
+    display: flex;
+    padding: 5px;
+}
+
+.currencyOption:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.currencySymbol {
+    width: 30%;
+    padding-left: 15%;
+}
+
+.currenciesOverlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 7;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}

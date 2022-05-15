@@ -1,0 +1,39 @@
+.checked, .unChecked {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 45px;
+}
+
+.unChecked, .checked {
+    border: 2px solid black;
+}
+
+.checked {
+    background-color: black;
+}
+
+.checked p {
+    color: white;
+}
+
+.selected, .selectedColor {
+    display: flex;
+    gap: 10px;
+}
+
+.colorSwatch, .colorChecked {
+    width: 32px;
+    height: 32px;
+}
+
+.colorChecked:after {
+    content: '';
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -4px;
+    width: 36px;
+    height: 36px;
+    border: 2px solid #5ECE7B;
+}

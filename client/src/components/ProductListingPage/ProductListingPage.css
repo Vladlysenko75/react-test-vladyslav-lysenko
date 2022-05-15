@@ -1,0 +1,12 @@
+.products {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 9.2%;
+    margin: 30px;
+}
+
+.listing {
+    margin-top: 150px;
+}

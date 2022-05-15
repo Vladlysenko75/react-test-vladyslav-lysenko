@@ -1,0 +1,54 @@
+.listingCartModal, .listingCartModalOverlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.listingCartModalOverlay {
+    background-color: rgba(82, 91, 94, 0.25);
+}
+
+.modalContent {
+    min-width: 320px;
+    position: absolute;
+    padding: 25px;
+    top: 40%;
+    left: 50%;
+    z-index: 12;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 3px;
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.listingCartModalBtn {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.listingCartModalBtn:hover {
+    background-color: #adb5bd;
+}
+
+.listingCartModalForm .addToCartBtn {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.listingCartModalForm .attributes {
+    gap: 15px;
+}
